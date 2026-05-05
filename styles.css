@@ -640,51 +640,10 @@ textarea {
 
 .plan-price {
   margin: 18px 0 0;
-  color: var(--text);
+  color: #3b82f6;
   font-size: 1.8rem;
   font-weight: 800;
   letter-spacing: -0.04em;
-}
-
-.stock-row {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  margin: 22px 0 26px;
-}
-
-.stock-bar {
-  flex: 1 1 auto;
-  height: 8px;
-  overflow: hidden;
-  border-radius: 999px;
-  background: rgba(148, 163, 184, 0.16);
-}
-
-.stock-fill {
-  display: block;
-  height: 100%;
-  border-radius: 999px;
-  background: linear-gradient(90deg, #34d399, #22c55e);
-}
-
-.stock-fill-high {
-  width: 78%;
-}
-
-.stock-fill-mid {
-  width: 52%;
-}
-
-.stock-fill-empty {
-  width: 0;
-}
-
-.stock-text {
-  flex: 0 0 auto;
-  color: #22c55e;
-  font-weight: 700;
-  white-space: nowrap;
 }
 
 .plan-card ul {
